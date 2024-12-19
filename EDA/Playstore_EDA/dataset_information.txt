@@ -1,0 +1,40 @@
+
+3.2 Feature Information
+    1. App :- Name of the App
+    2. Category :- Category under which the App falls.
+    3. Rating :- Application's rating on playstore
+    4. Reviews :- Number of reviews of the App.
+    5. Size :- Size of the App.
+    6. Install :- Number of Installs of the App
+    7. Type :- If the App is free/paid
+    8. Price :- Price of the app (0 if it is Free)
+    9. Content Rating :- Appropiate Target Audience of the App.
+    10. Genres:- Genre under which the App falls.
+    11. Last Updated :- Date when the App was last updated
+    12. Current Ver :- Current Version of the Application
+    13. Android Ver :- Minimum Android Version required to run the App
+
+
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10841 entries, 0 to 10840
+Data columns (total 13 columns):
+     #   Column          Non-Null Count  Dtype  
+    ---  ------          --------------  -----  
+    0   App             10841 non-null  object 
+    1   Category        10841 non-null  object 
+    2   Rating          9367 non-null   float64
+    3   Reviews         10841 non-null  object 
+    4   Size            10841 non-null  object 
+    5   Installs        10841 non-null  object 
+    6   Type            10840 non-null  object 
+    7   Price           10841 non-null  object 
+    8   Content Rating  10840 non-null  object 
+    9   Genres          10841 non-null  object 
+    10  Last Updated    10841 non-null  object 
+    11  Current Ver     10833 non-null  object 
+    12  Android Ver     10838 non-null  object 
+    dtypes: float64(1), object(12)
+    memory usage: 1.1+ MB
+
+Data Size : (10841, 13)
